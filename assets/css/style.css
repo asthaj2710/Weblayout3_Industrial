@@ -145,7 +145,7 @@ header h2{
     font-size: 20px;
 }
 .banner{
-    padding: 0px;
+    padding: 10px;
     /* flex-direction: column; */
 }
 .feature{
@@ -153,6 +153,13 @@ header h2{
     align-items: center;
     justify-content: center;
     padding:10px 100px;
+}
+.feature div img{
+    margin: left -50%;;
+}
+.feature div{
+    width: 35%;
+    height: 450px;
 }
 .feature div h2{
     font-size: 20px;
@@ -174,6 +181,58 @@ padding:10px;
 .service .image, .service .content{
     width: auto;
     padding-left: 0px !important;
+}
+}
+@media screen and (max-width:768px){
+.header h2{
+    font-size: 14px;
+}
+.header h2 span{
+   text-wrap: nowrap;
+   font-size: 10px;
+}
+.banner{
+    height:auto;
+    flex-direction: column;
+    padding: 10px;
+}
+.banner h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.banner h1 span{
+    font-size: 56px;
+    font-weight: 600;
+}   
+.feature div h2{
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+.feature div p{
+    margin-top: 1px;
+    font-size: 10px;
+}
+.about{
+    padding: 15px;
+}
+.about h2{
+    font-size:20px;
+}
+.about p{
+    font-size: 12px;
+}
+.about button{
+    padding: 5px 80px;
+}
+.service{
+padding:10px;
+}
+.service .image img{
+width: 400px;
+height: auto;
+}
+.service p{
+    padding-top: 5px;
 }
 }
 /* Media Query section end */
